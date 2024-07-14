@@ -24,7 +24,7 @@ namespace PizzaApp_RazorPages.Pages.Forms
             if (Pizza.Ham) PizzaPrice +=1;
             if (Pizza.Beef) PizzaPrice +=1;
 
-            return RedirectToPage("/Checkout/Checkout", new  { Pizza.PizzaName, PizzaPrice});
+            return RedirectToPage("/Checkout/Checkout", new  { Pizza.PizzaName, PizzaPrice });
         }
     }
 }
